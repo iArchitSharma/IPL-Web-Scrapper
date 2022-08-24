@@ -6,7 +6,7 @@ const fs = require('fs');
 const schedule = [];
 
 
-const url = "https://www.sportskeeda.com/go/ipl/schedule?tab=past";
+const url = "https://www.sportskeeda.com/go/ipl/schedule?tab=recent";
 request(url,(error,response,html)=>{
 
     if(!error&&response.statusCode==200){
